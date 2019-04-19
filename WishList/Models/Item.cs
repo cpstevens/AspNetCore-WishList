@@ -8,12 +8,12 @@ namespace WishList.Models
 {
     public class Item
     {
-        public int Id { get;  set};
+        public int Id { get;  set}
 
 
         [Required]
         [MaxLength(50)]
-        public String Description { get; set};
+        public String Description { get; set}
 
     }
 }
